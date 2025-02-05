@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Frontend dependencies
+/frontend/node_modules
+/frontend/.env
+
+# Backend dependencies
+/backend/node_modules
+/backend/.env
+
+# Yarn & npm lock files (optional, keep if you're not using both)
+yarn.lock
+package-lock.json
+
+# testing
+/coverage
+
+# production builds
+/build
+
+# misc
+.DS_Store
+.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
